@@ -1,0 +1,7 @@
+$( "div > h1" ).css("background", "AQUA");
+$(demo_form.elements).hide();
+$( 'li' ).each(function( index, elem ) {
+    $( elem ).prepend( '<b><i>' + index + ' : </i></b>' );
+});
+$("a").attr("href", "www.acadgild.com");
+$("a").text("ACADGILD Tutorial");
